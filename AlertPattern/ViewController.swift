@@ -85,7 +85,6 @@ class ViewController: UIViewController {
         let ac = UIAlertController(title: title, message: message, preferredStyle: style)
         ac.addAction(UIAlertAction(title: "First action", style: .default))
         ac.addAction(UIAlertAction(title: "Second action", style: .default))
-        ac.addAction(UIAlertAction(title: nil, style: .default))
         ac.addAction(UIAlertAction(title: "Destructive", style: .destructive))
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         present(ac, animated: true)
